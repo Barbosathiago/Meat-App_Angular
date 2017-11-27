@@ -1,3 +1,1 @@
-<div class="col-xs-12 col-sm-6" *ngFor="let review of reviews | async">
-  <mt-review [review]="review"></mt-review>
-</div>
+<mt-review *ngFor="let review of reviews | async" [review]="review"></mt-review>
