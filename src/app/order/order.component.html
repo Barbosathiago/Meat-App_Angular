@@ -19,9 +19,10 @@
                 Seus Dados:
               </p>
             </div>
-            <div class="col-xs-12 col-sm-3">
+            <div class="col-sm-3 col-xs-12">
               <span class="help-block pull-right has-error-block" *ngIf="orderForm.hasError('emailsNotMatch')"><i class="fa fa-remove"></i> Emails nao conferem</span>
             </div>
+
             <div class="col-sm-6 col-xs-12">
               <mt-input-container  errorMessage="Campo obrigatório e com 5 caracteres" label="Nome">
                 <input formControlName="name"  autocomplete="off" class="form-control" placeholder="Nome">
